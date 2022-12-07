@@ -125,34 +125,7 @@ iframe{
     margin-right: 3rem;
     margin-left: 3rem;
 }
-.nav-link {
-    color: grey !important;
-    
-}
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    background-color: white !important;
-}
-
-.nav-link.active {
-color: black !important;
-font-weight: bold !important;
-text-decoration: underline;
-background-color: none !important;
-}
-
-.show-document-outline-btn{
-    width:2rem;
-    height: 2rem;
-    background-color: beige;
-    position: fixed;
-}
-
-/* .document-outline{
-    max-width: 12rem;
-    position: fixed;
-    margin-left: 2rem;
-} */
 
 
 .sketches {
