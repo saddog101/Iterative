@@ -1,10 +1,90 @@
-*, *::before, *::after {
-    box-sizing: border-box;
+@media(max-width: 1000px){
+    h1{
+        font-size: 2rem !important;
+    }
+    h2{
+        font-size:1.5rem !important;
+    }
+    h3{
+        font-size: 1rem !important;
+    }
+    h4{
+        font-size: 0.8rem !important;
+    }
+    p{
+        font-size:0.8rem !important;
+    }
+    span.red{
+        font-size: 3rem;
+    }
+    span.blue{
+        font-size: 3rem;
+    }
+  }
+
+body{
+    background-image: url(asset/Title\ Pic.png);
 }
 
-* {
-    margin: 0;
+.content{
+    padding-top: 2rem;
+    justify-content: center;
+    background-color: white;
+    margin-top: 30%;
+
+    padding-bottom: 5rem;
 }
+
+@media (max-width: 900px) {
+    .navbar{
+        position: relative !important;
+        padding-left:0rem !important;
+        padding-right:0rem !important;
+        margin-left:0rem !important;
+        margin-right:0rem !important;
+    }
+    
+}
+
+nav.navbar:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+
+    
+    
+}
+
+.navbar:hover .logo{
+    filter:invert(0%);
+}
+
+.logo{
+    width: 6rem;
+    padding-top: 1rem;
+    filter:invert(70%);
+}
+
+
+
+.navbar{
+    top:0;
+    padding-top: 0rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-size: 1.5rem;
+    width: 100%;
+    position:fixed;
+    z-index: 1;
+}
+
+.nav-item{
+    margin-left: 1.2rem;
+}
+
+.nav-item:hover{
+    font-weight: 700;
+}
+
+
 
 img, picture,video,canvas,svg{
     display: block;
@@ -13,6 +93,13 @@ img, picture,video,canvas,svg{
 }
 
 
+
+@media(min-width: 1200px){
+    .content{
+        padding-left: 22%;
+        padding-right: 22%;
+    }
+}
 
 table {
     border-collapse: collapse;
@@ -41,7 +128,7 @@ iframe{
 .nav-link {
     color: grey !important;
     
-  }
+}
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     background-color: white !important;
@@ -84,24 +171,27 @@ background-color: none !important;
     
   }
 h1{
-    margin-bottom: 4rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
 }
-
+.subtitle{
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-family:'Times New Roman', Times, serif;
+}
 h2{
-    margin-top: 2rem;
     margin-bottom: 2rem;
     font-weight: 900;
+    font-size: 2.4rem;
     font-family: 'Times New Roman', Times, serif;
-    
-    font-size: 5rem;
+
 }
 
 h4{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.2rem;
 
 }
 
@@ -113,7 +203,7 @@ h5{
 h6{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
-    font-size: 1.5rem;
+    font-size: 1rem;
 
 }
 .sub-part{
@@ -121,41 +211,19 @@ h6{
 
 }
 p{
-    font-size: 1.2rem;
-}
-.part{
-    margin-bottom: 5rem;
-}
-
-ul{
     font-size: 1rem;
 }
+.part{
+    margin-top: 5rem;
+}
+
+
 li{
     margin-bottom: 0.76rem;
 }
-.document-container{
-    width:60%
-}
-@media only screen and (max-width: 1000px){
-    /*Tablets [601px -> 1200px]*/
-    .document-container{
-        width:70%
-    }
-    .document-outline{
-        display: none;
-    }
-}
-@media only screen and (max-width: 600px){
-	/*Big smartphones [426px -> 600px]*/
-    .document-container{
-        width:81%
-    }
 
+.iframe-div{
+    justify-content: center;
 }
-@media only screen and (max-width: 425px){
-	/*Small smartphones [325px -> 425px]*/
-    .document-container{
-        width:100%
-    }
-}
+
 
