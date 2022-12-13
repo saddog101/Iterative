@@ -42,7 +42,13 @@ body{
         padding-right:0rem !important;
         margin-left:0rem !important;
         margin-right:0rem !important;
+        margin-top:0rem !important;
+        padding-top:0rem !important;
     }
+    .dis{
+        display: none;
+    }
+
     
 }
 
@@ -60,7 +66,7 @@ nav.navbar:hover{
 .logo{
     width: 6rem;
     padding-top: 1rem;
-    filter:invert(70%);
+    filter:invert(0%);
 }
 
 
@@ -109,7 +115,7 @@ table {
 }
 
 body {
-    padding-top: 115px;
+    
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -163,13 +169,14 @@ h2{
 h4{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 
 }
 
 h5{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
+    font-size: 1.2 rem;
 }
 
 h6{
@@ -186,7 +193,7 @@ p{
     font-size: 1rem;
 }
 .part{
-    margin-top: 5rem;
+    padding-top: 5rem;
 }
 
 
@@ -197,5 +204,22 @@ li{
 .iframe-div{
     justify-content: center;
 }
+
+.ba{
+    font-size: 2rem;
+}
+
+
+
+.card{
+    margin-bottom: 1rem;
+}
+
+.button{
+    margin-bottom: 1rem;
+}
+
+
+
 
 
