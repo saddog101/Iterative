@@ -219,6 +219,9 @@ li{
     margin-bottom: 1rem;
 }
 
+.gif{
+    max-height: 50% !important;
+}
 
 
 
