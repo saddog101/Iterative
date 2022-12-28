@@ -169,7 +169,7 @@ h2{
 h4{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.6rem;
 
 }
 .accordion-item{
@@ -193,13 +193,13 @@ h4{
 h5{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 h6{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 
 }
 .sub-part{
@@ -207,7 +207,7 @@ h6{
 
 }
 p{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 .part{
     padding-top: 5rem;
