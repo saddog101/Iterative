@@ -177,6 +177,16 @@ h4{
     font-size: 1rem;
 }
 
+.navbar:hover .logo{
+    filter:invert(0%);
+}
+
+.logo{
+    width: 6rem;
+    padding-top: 1rem;
+    filter:invert(70%);
+}
+
 h5{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
